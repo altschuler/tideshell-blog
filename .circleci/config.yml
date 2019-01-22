@@ -5,18 +5,29 @@ jobs:
   build:
     <<: *defaults
     docker:
-      - image: circleci/ruby:2.5
+      - image: circleci/ruby:2.6.0-node
+        environment:
+          BUNDLER_VERSION: 2.0.1
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
       - restore_cache:
           keys:
-            - rubygems-v1-{{ checksum "Gemfile.lock" }}
-            - rubygems-v1-fallback
+            - rubygems-v2-{{ checksum "Gemfile.lock" }}
+            - rubygems-v2-fallback
+      - run:
+          name: Configure Bundler
+          command: |
+            sudo gem update --system
+            sudo gem uninstall bundler
+            sudo rm /usr/local/bin/bundle
+            sudo rm /usr/local/bin/bundler
+            sudo gem install bundler
       - run:
           name: Bundle Install
           command: bundle check || bundle install
+
       - run:
           name: HTMLProofer tests
           command: |
@@ -26,7 +37,7 @@ jobs:
               --check-html \
               --disable-external
       - save_cache:
-          key: rubygems-v1-{{ checksum "Gemfile.lock" }}
+          key: rubygems-v2-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
       - run:
