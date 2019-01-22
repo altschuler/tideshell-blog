@@ -4,9 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-Get in touch by [mail](mailto:contact@tideshell.studio).
+Get in touch by [mail](mailto:contact@tideshell.studio), or visit us at:
 
-Tideshell Studio
-Pilestræde 43, 1. sal
-1112 Copenhagen
-Denmark
+{{ site.address }}

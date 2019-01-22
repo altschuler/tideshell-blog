@@ -4,10 +4,10 @@ title: Games
 permalink: /games/
 ---
 
-These are our awesome games.
+More info coming soon.
 
-## [Noon's Journey](http://www.tideshell.studio)
-Point and click narrative adventure, very wow!
+## Noon's Journey
+Point and click narrative adventure.
 
-## [Girl and the Giant](http://www.tideshell.studio)
-An interactive childrens book, such story!
+## Girl and the Giant
+An interactive childrens book.
