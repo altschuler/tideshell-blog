@@ -18,16 +18,24 @@ email: contact@tideshell.studio
 description: >- # this means to ignore newlines until "baseurl:"
   Tideshell Studio is a small game studio located in Copenhagen, Denmark.
   We make narrative point-and-click games and other interactive experiences.
+address: |
+  Pilestræde 43, 1. sal
+  1112 Copenhagen
+  Denmark
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tideshell.studio" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tideshell
-# github_username:  jekyll
+facebook_username:  tideshell
+rss: "RSS"
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+disqus:
+  shortname: tideshell
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
