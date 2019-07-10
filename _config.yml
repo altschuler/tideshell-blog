@@ -25,7 +25,7 @@ address: |
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tideshell.studio" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tideshell
-facebook_username:  tideshell
+facebook_username:  tideshellstudio
 rss: "RSS"
 
 # Build settings
