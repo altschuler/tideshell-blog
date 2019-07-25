@@ -17,10 +17,10 @@ title: Tideshell Studio
 email: contact@tideshell.studio
 description: >- # this means to ignore newlines until "baseurl:"
   Tideshell Studio is a small game studio located in Copenhagen, Denmark.
-  We make narrative point-and-click games and other interactive experiences.
+  We make narrative adventure games and other interactive experiences.
 address: |
-  Pilestræde 43, 1. sal
-  1112 Copenhagen
+  Pilestræde 43, 1. sal<br>
+  1112 Copenhagen<br>
   Denmark
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tideshell.studio" # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,12 +30,69 @@ rss: "RSS"
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 disqus:
   shortname: tideshell
+
+header_pages:
+  - pages/games.md
+  - pages/team.md
+  - pages/press.md
+
+team_members:
+    - name: Sascha
+      role: Director, art, design, boss
+      image: Sascha.png
+      active: yes
+
+    - name: Simon
+      role: Technical Lead
+      image: Simon.png
+      active: yes
+
+    - name: Bjørn
+      role: Artist
+      image: Bjorn.png
+      active: yes
+
+    - name: Bertram
+      role: Technical Artist
+      image: Bertram.png
+      active: no
+
+    - name: Marco
+      role: Animator
+      image: Marco.png
+      active: no
+
+    - name: Mikkel
+      role: Composer
+      image: Mikkel.png
+      active: no
+
+    - name: Alasdair
+      role: Game Designer
+      image: Alasdair.png
+      active: no
+
+    - name: Søren
+      role: Producer
+      image: Soren.png
+      active: no
+
+    - name: Yasmin
+      role: Voice Actor
+      image: Yasmin.png
+      active: no
+
+    - name: Sally
+      role: Voice Actor
+      image: Sally.png
+      active: no
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

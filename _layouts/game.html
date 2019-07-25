@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="post game-page">
+
+    <header>
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+
+        <!-- <div> -->
+        <!-- <img alt="Noon's Journey" src="{{page.cover_image}}"/> -->
+        <!-- </div> -->
+
+    </header>
+
+    <div class="game-wrapper">
+        <div class="description">
+            <h3><strong>Release</strong>: {{ page.release | escape }}</h3>
+            <h3><strong>Website</strong>: {{ page.site | default: "Coming" }}</h3>
+
+            <div class="post-content">
+                {{ page.short_desc }}
+            </div>
+        </div>
+
+        <div class="video">
+            <iframe src="https://player.vimeo.com/video/{{page.vimeo_id}}?byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+
+    <h2>Media</h2>
+
+    <div class="screenshot-list">
+        {%- for screenshot in page.screenshots -%}
+        <div class="item">
+            <a href="{{page.screenshots_dir}}{{screenshot.full_url}}" data-lightbox="screenshots" data-title="{{screenshot.title}}" style="background-image: url('{{page.screenshots_dir}}{{screenshot.thumb_url}}');"></a>
+        </div>
+        {%- endfor -%}
+    </div>
+
+</article>

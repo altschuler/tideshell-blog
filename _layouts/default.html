@@ -7,7 +7,7 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
+    <main class="page-content {{ page.pageclass }}" aria-label="Content">
       <div class="wrapper">
         {{ content }}
       </div>
@@ -15,6 +15,8 @@
 
     {%- include footer.html -%}
 
+    <script type="text/javascript" src="/assets/script.js"></script>
+    <script type="text/javascript" src="/assets/lightbox.min.js"></script>
   </body>
 
 </html>
