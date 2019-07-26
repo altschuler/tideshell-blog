@@ -1,6 +1,6 @@
 ---
 layout: game
-permalink: /games/noons_journey
+permalink: /games/noons_journey/
 title: Noon's Journey
 cover_image: /assets/images/games/noon_cover.jpg
 release: TBA
