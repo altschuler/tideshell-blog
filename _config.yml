@@ -61,7 +61,7 @@ team_members:
     - name: Bertram
       role: Technical Artist
       image: Bertram.png
-      active: no
+      active: yes
 
     - name: Marco
       role: Animator
