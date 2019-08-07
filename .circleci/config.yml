@@ -63,6 +63,10 @@ jobs:
       - run:
           name: Deploy to S3
           command: aws s3 sync _site s3://www.tideshell.studio --delete
+      - run:
+          name: Invalidate CloudFront cache
+          command: aws cloudfront create-invalidation --distribution-id E1N0ZVCKHNMASY --paths "/*"
+
 workflows:
   version: 2
   test-deploy:
