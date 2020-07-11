@@ -1,9 +1,11 @@
 ---
 layout: game
-permalink: /games/noons_journey/
-title: Noon's Journey
+permalink: /games/the_tideshell_keeper/
+title: The Tideshell Keeper
 cover_image: /assets/images/games/noon_cover.jpg
 release: TBA
+redirect_from:
+    - /games/noons_journey
 vimeo_id: 318603748
 screenshots_dir: /assets/images/games/noons_journey/
 screenshots:

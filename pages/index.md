@@ -6,9 +6,9 @@ permalink: /
 ## We're a small game development studio in Copenhagen, making narrative games and interactive books.
 
 
-<div>
-  <a href="{{ site.baseurl }}{% link pages/games/noons_journey.md %}">
-    <img alt="Noon's Journey" src="/assets/images/games/noon_tile.png" />
+<div class="flex-center">
+  <a href="{{ site.baseurl }}{% link pages/games/the_tideshell_keeper.md %}">
+    <img alt="The Tideshell Keeper" src="/assets/images/games/noon_tile.png" />
   </a>
 </div>
 
