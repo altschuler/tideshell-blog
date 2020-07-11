@@ -6,7 +6,8 @@ cover_image: /assets/images/games/noon_cover.jpg
 release: TBA
 redirect_from:
     - /games/noons_journey
-vimeo_id: 318603748
+# vimeo_id: 318603748
+youtube_id: 6kAObq7v6Aw
 screenshots_dir: /assets/images/games/noons_journey/
 screenshots:
     - title: Beware the flood!
