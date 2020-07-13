@@ -3,9 +3,6 @@ layout: home
 permalink: /
 ---
 
-## We're a small game development studio in Copenhagen, making narrative games and interactive books.
-
-
 <div class="flex-center">
   <a href="{{ site.baseurl }}{% link pages/games/the_tideshell_keeper.md %}">
     <img alt="The Tideshell Keeper" src="/assets/images/games/noon_cover.jpg" />
@@ -13,6 +10,8 @@ permalink: /
 </div>
 
 <iframe style="margin-bottom: 1em;" src="https://store.steampowered.com/widget/1368040/" frameborder="0" width="940" height="190"></iframe>
+
+# We're a small game development studio in Copenhagen, making narrative games and interactive books.
 
 <!-- Mailchimp Signup Form -->
 <div id="mc_embed_signup">

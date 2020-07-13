@@ -54,6 +54,12 @@ team_members:
       image: Simon.png
       active: yes
 
+    - name: Adonis
+      role: Production and Business
+      image: Adonis.png
+      active: yes
+
+contributors:
     - name: Bjørn
       role: Artist
       image: Bjorn.png
@@ -67,32 +73,27 @@ team_members:
     - name: Marco
       role: Animator
       image: Marco.png
-      active: no
+      active: yes
 
     - name: Mikkel
       role: Composer
       image: Mikkel.png
-      active: no
+      active: yes
 
     - name: Alasdair
       role: Game Designer
       image: Alasdair.png
-      active: no
-
-    - name: Søren
-      role: Producer
-      image: Soren.png
-      active: no
+      active: yes
 
     - name: Yasmin
       role: Voice Actor
       image: Yasmin.png
-      active: no
+      active: yes
 
     - name: Sally
-      role: Voice Actor
+      role: Voice Casting
       image: Sally.png
-      active: no
+      active: yes
 
 
 # Exclude from processing.
