@@ -12,6 +12,11 @@ layout: default
 
     </header>
 
+    {% if page.steam_id %}
+    <iframe style="margin-bottom: 2em" src="https://store.steampowered.com/widget/{{page.steam_id}}/" frameborder="0" width="940" height="190"></iframe>
+    {% endif %}
+
+
     <div class="game-wrapper">
         <div class="description">
             <h3><strong>Release</strong>: {{ page.release | escape }}</h3>
@@ -35,7 +40,6 @@ layout: default
     <div class="post-content">
         {{ content }}
     </div>
-
 
     <h2>Media</h2>
 

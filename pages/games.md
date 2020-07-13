@@ -8,12 +8,7 @@ We're currently focusing on the game [The Tideshell Keeper]({{ site.baseurl }}{%
 
 <div>
   <a href="{{ site.baseurl }}{% link pages/games/the_tideshell_keeper.md %}">
-    <img alt="Noon's Journey" src="/assets/images/games/noon_tile.png" />
+    <img alt="Noon's Journey" src="/assets/images/games/noon_cover.jpg" />
   </a>
 </div>
 
-<!-- <div> -->
-<!--   <a href="{{ site.baseurl }}{% link pages/games/the_tideshell_keeper.md %}"> -->
-<!--     <img alt="Noon's Journey" src="/assets/images/games/noon_tile.png" /> -->
-<!--   </a> -->
-<!-- </div> -->
