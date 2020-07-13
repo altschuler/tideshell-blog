@@ -11,9 +11,7 @@ permalink: /
     <img alt="The Tideshell Keeper" src="/assets/images/games/noon_tile.png" />
   </a>
 </div>
-<div>
-<iframe src="https://store.steampowered.com/widget/1368040/" frameborder="0" width="646" height="190"></iframe>
-</div>
+
 <!-- Mailchimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="https://studio.us20.list-manage.com/subscribe/post?u=2912a1a9ea8db25405917f635&amp;id=ef5aad29c7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
